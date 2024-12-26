@@ -105,3 +105,14 @@ imageinput.addEventListener("change",()=>{
 imagebtn.addEventListener("click",()=>{
     imagebtn.querySelector("input").click()
 })
+
+document.querySelector('input').addEventListener('blur', () => {
+    document.activeElement.blur();
+  });
+  
+  document.querySelector('input').addEventListener('keypress', (event) => {
+    if (event.key === 'Enter') {
+      event.target.blur(); // Removes focus
+    }
+  });
+  
