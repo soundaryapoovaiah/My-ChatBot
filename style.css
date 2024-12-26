@@ -138,21 +138,5 @@ body{
   }
   .AI-chat-box{
     width: 80%;
-  }
-  @media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-    .chat-container {
-      width: 90%;
-      margin: auto;
-    }     
-  }
-  input:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  
-
-  
+  }   
 }
